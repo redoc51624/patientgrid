@@ -1,49 +1,52 @@
 .container {
     width: 100% !important;
 
-    // Page1 SCSS
-    .demo-btn {
-        background-color: #2A0896 !important;
-        border-radius: 30px;
-    }
-
-    .start-btn {
-        color: black !important;
-        font-weight: 500;
-    }
-
-    .fa-arrow-right {
-        background-color: #2A0896 !important;
-        border-radius: 50%;
-        box-shadow: #b09eed 5px 5px;
-        width: 30px;
-        height: 30px;
-    }
-
-    //Page2 SCSS
-    .page2 {
-        .rect-shape {
-            width: 1550.34px !important;
-            height: 538.85px !important;
-            left: 69.71px;
-            gap: 0px;
-            border-radius: 30px 0px 0px 0px;
-            opacity: 0px;
-            rotate: -7.43deg;
-            background: linear-gradient(90.51deg, #87CEFA 3.78%, #2A0896 96.65%) !important;
-        }
-    }
-
+}
+.demo-btn {
+    background-color: #2A0896 !important;
+    border-radius: 30px;
 }
 
+.start-btn {
+    color: black !important;
+    font-weight: 500;
+}
+
+.fa-arrow-right {
+    background-color: #2A0896 !important;
+    color: white;
+    border-radius: 50%;
+    box-shadow: #b09eed 0 5px;
+    width: 30px;
+    height: 30px;
+}
+
+
+
+.rect-shape {
+    width: 1550.34px !important;
+    height: 538.85px !important;
+    left: 69.71px;
+    gap: 0px;
+    border-radius: 30px 0px 0px 0px;
+    opacity: 0px;
+    rotate: 7.43deg;
+    background: linear-gradient(90.51deg, #87CEFA 3.78%, #2A0896 96.65%) !important;
+}
+
+
 .inner-container-2 {
+    position: relative;
+    bottom: 550px;
     width: 80% !important;
     margin: 0 10%;
     border-radius: 29px;
+    background-color: #FFFFFF;
+    height: 575px;
 }
 
-.page3 {
-    margin-top: 200px;
+.page2 {
+    height: 660px;
 }
 
 .outer-card-container {
@@ -83,9 +86,11 @@
 @media (min-width: 768px) {
     .page4 {
         width: 73% !important;
-        margin: 0 auto;
+        margin: 50px auto;
     }
-    .page5 ,.page6{
+
+    .page5,
+    .page6 {
         width: 80%;
         margin: 50px auto;
     }
